@@ -43,16 +43,23 @@ header .menu-item {
 	text-decoration: none;
 }
 
+header .border-gradient {
+	border: 0.4rem solid;
+	border-image-slice: 1;
+	border-width: 0.5rem;
+}
+
 header .btn-primary {
-	background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
+	background: transparent;
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+	border: 0.2rem solid hsl(11deg 76% 66%);
 	border-radius: 0.8rem;
 	padding: 1.6rem 3.2rem;
 	font-weight: 600;
 	font-size: 1.6rem;
 	line-height: 150%;
 	text-transform: uppercase;
-	color: #fff;
+	color: hsl(11deg 76% 66%);
 }
 
 header .divider {
@@ -304,6 +311,7 @@ section.vem-ai h2 {
 	max-width: 71.3rem;
 	margin-bottom: 3.2rem;
 	color: #0f071c;
+	padding: 0rem 0.5rem;
 }
 
 section.vem-ai p {
@@ -321,9 +329,20 @@ section.espaco-presencial .gradiente {
 	-webkit-text-stroke: 0.4rem transparent;
 }
 
+section.espaco-presencial .gradiente-text {
+	background: linear-gradient(135deg, hsl(355, 100%, 69%) 2.88%, #ffc371 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+section.espaco-presencial .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
 section.espaco-presencial .text {
 	margin-top: 10.4rem;
-	margin-left: 7rem;
 }
 
 section.espaco-presencial h2 {
@@ -381,6 +400,7 @@ section.canais-virtuais .container h2 {
 	margin-bottom: 3.2rem;
 	color: #0f071c;
 	text-align: center;
+	padding: 0rem 0.5rem;
 }
 
 section.canais-virtuais .container h3 {
