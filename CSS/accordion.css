@@ -7,73 +7,79 @@
  * Copyright (c) Michał Strumpf
  * Published under MIT License
  */
+
 .ac {
-  margin-top: 10px;
-  border: 1px solid #eee;
-  background-color: #fff;
-  box-sizing: border-box;
+	margin-top: 0.8rem;
+	border-bottom: 0.1rem solid #393939;
+	background-color: transparent;
+	box-sizing: border-box;
+}
+
+.accordion-container {
+	max-width: 35%;
+	padding-top: 10rem;
 }
 
 .ac .ac-header {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .ac .ac-trigger {
-  font: bold 16px 'Arial', sans-serif;
-  color: #111;
-  text-align: left;
-  width: 100%;
-  padding: 10px 30px 10px 10px;
-  display: block;
-  cursor: pointer;
-  background-color: transparent;
-  -webkit-transition: color 0.25s ease;
-  transition: color 0.25s ease;
-  position: relative;
-  text-decoration: none;
-  margin: 0;
-  border: 0;
+	font: normal 2.3rem "Montserrat", sans-serif;
+	color: hsl(11deg 76% 66%);
+	text-align: left;
+	width: 100%;
+	padding: 2.4rem 10rem 2.4rem 0rem;
+	display: block;
+	cursor: pointer;
+	background-color: transparent;
+	-webkit-transition: color 0.25s ease;
+	transition: color 0.25s ease;
+	position: relative;
+	text-decoration: none;
+	margin: 0;
+	border: 0;
 }
 
 .ac .ac-trigger::after {
-  content: '+';
-  text-align: center;
-  width: 15px;
-  -webkit-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  position: absolute;
-  right: 10px;
-  top: 50%;
+	content: "+";
+	text-align: center;
+	width: 1.5rem;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	position: absolute;
+	right: 1rem;
+	top: 50%;
 }
 
 .ac .ac-trigger:focus {
-  color: #8a8a8a;
+	font: bold 2.3rem "Montserrat", sans-serif;
 }
 
 .ac .ac-panel {
-  overflow: hidden;
-  -webkit-transition-property: height, visibility;
-  transition-property: height, visibility;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
+	overflow: hidden;
+	-webkit-transition-property: height, visibility;
+	transition-property: height, visibility;
+	-webkit-transition-timing-function: ease;
+	transition-timing-function: ease;
 }
 
 .ac .ac-panel .ac-text {
-  font: 15px/24px 'Arial', sans-serif;
-  color: #111;
-  padding: 10px;
-  margin: 0;
+	font: 1.5rem/2.4rem "Arial", sans-serif;
+	color: hsl(0deg 0% 100%);
+	padding: 1rem;
+	margin: 0;
 }
 
 .ac.js-enabled .ac-panel {
-  visibility: hidden;
+	visibility: hidden;
 }
 
 .ac.is-active .ac-panel {
-  visibility: visible;
+	visibility: visible;
 }
 
 .ac.is-active > .ac-header .ac-trigger::after {
-  content: '\2013';
+	content: "\2013";
 }
