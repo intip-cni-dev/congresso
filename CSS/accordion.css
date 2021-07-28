@@ -16,7 +16,7 @@
 }
 
 .accordion-container {
-	max-width: 35%;
+	max-width: 33%;
 	padding-top: 10rem;
 }
 
@@ -57,6 +57,10 @@
 	font: bold 2.3rem "Montserrat", sans-serif;
 }
 
+.ac .ac-trigger:hover {
+	font: bold 2.3rem "Montserrat", sans-serif;
+}
+
 .ac .ac-panel {
 	overflow: hidden;
 	-webkit-transition-property: height, visibility;
@@ -68,8 +72,9 @@
 .ac .ac-panel .ac-text {
 	font: 1.5rem/2.4rem "Arial", sans-serif;
 	color: hsl(0deg 0% 100%);
-	padding: 1rem;
+	padding: 0rem 0rem 2.4rem 0rem;
 	margin: 0;
+	border-bottom: 2px solid #ffa621;
 }
 
 .ac.js-enabled .ac-panel {

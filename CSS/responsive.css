@@ -1,7 +1,5 @@
 @media (max-width: 1200px) {
-	header nav ul li {
-		display: none;
-	}
+	/* HEADER */
 
 	/* VEM AI */
 
@@ -9,6 +7,15 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+	}
+
+	/* PROGRAMACAO */
+
+	section.programacao .container ul {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 1.6rem;
 	}
 
 	/* INSTITUICOES */
@@ -35,8 +42,20 @@
 		margin: 0rem 3.2rem 0rem 3.2rem;
 	}
 
+	header nav ul {
+		display: none;
+	}
+
+	header .btn-header .btn-primary-2 {
+		display: none;
+	}
+
 	header .lenguage {
 		font-size: 1.8rem;
+	}
+
+	header .logo-inovacao img {
+		max-width: 17.4rem;
 	}
 
 	/* S-HERO */
@@ -54,21 +73,28 @@
 		padding-right: 0;
 	}
 
+	section.s-hero .btns {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	section.s-hero .btns .btn-primary-2 {
+		display: block;
+	}
+
 	/* PROGRAMACAO */
 
 	section.programacao .texto-apoio p {
-		margin: 30rem 0rem 17.2rem;
-	}
-
-	section.programacao .container ul {
-		display: flex;
-		align-items: flex-start;
-		flex-direction: column;
-		gap: 1.6rem;
+		margin: 0rem 0rem 17.2rem;
 	}
 
 	section.programacao .container ul li h4 {
 		max-width: 28.5rem;
+	}
+
+	section.programacao .bloco-txt h3 {
+		margin-top: 30rem;
 	}
 
 	/* ESPACOS PRESENCIAIS */
@@ -168,6 +194,10 @@
 	}
 
 	/* PROGRAMACAO */
+
+	section.programacao .bloco-txt h3 {
+		margin-top: 0rem;
+	}
 
 	section.programacao .texto-apoio p {
 		font-size: 2rem;

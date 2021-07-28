@@ -49,7 +49,7 @@ header .border-gradient {
 	border-width: 0.5rem;
 }
 
-header .btn-primary {
+header .btn-header .btn-primary-2 {
 	background: transparent;
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border: 0.2rem solid hsl(11deg 76% 66%);
@@ -79,7 +79,7 @@ header .lenguage {
 	color: #fff;
 }
 
-/* section s-hero */
+/* SECTION HERO */
 
 section.s-hero {
 	background-image: url(/img/hero-bg.png);
@@ -110,7 +110,11 @@ section.s-hero h1 {
 	margin-bottom: 4.8rem;
 }
 
-section.s-hero .btn-primary {
+section.s-hero .btns {
+	max-width: 100%;
+}
+
+section.s-hero .btns .btn-primary {
 	background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border-radius: 0.8rem;
@@ -120,6 +124,21 @@ section.s-hero .btn-primary {
 	line-height: 150%;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+section.s-hero .btns .btn-primary-2 {
+	background: transparent;
+	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+	border: 0.2rem solid hsl(11deg 76% 66%);
+	border-radius: 0.8rem;
+	padding: 1.6rem 3.2rem;
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: hsl(11deg 76% 66%);
+	margin-top: 1.6rem;
+	display: none;
 }
 
 section.s-hero .texto-apoio strong {
@@ -159,7 +178,16 @@ section.programacao h2 {
 	color: #0f071c;
 }
 
-section.programacao h3 {
+section.programacao .bloco-txt h3 {
+	font-weight: bold;
+	font-size: 4rem;
+	line-height: 100%;
+	color: #ffffff;
+	margin-bottom: 6.4rem;
+	text-align: center;
+}
+
+section.programacao h6 {
 	font-weight: bold;
 	font-size: 4rem;
 	line-height: 100%;
@@ -225,7 +253,7 @@ section.programacao .container ul li .card {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
-	max-width: 34.1rem;
+	width: 34.1rem;
 }
 
 section.programacao .container ul li {
@@ -271,7 +299,7 @@ section.programacao .container .linha-4 {
 }
 
 section.programacao .container .linha-5 {
-	max-width: 50%;
+	max-width: 48%;
 }
 
 section.programacao .container .btn-center {
@@ -338,7 +366,7 @@ section.espaco-presencial .gradiente-text {
 section.espaco-presencial .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 section.espaco-presencial .text {
@@ -354,11 +382,25 @@ section.espaco-presencial h2 {
 	color: #0f071c;
 }
 
-section.espaco-presencial p {
+section.espaco-presencial .text p {
 	font-size: 1.8rem;
 	line-height: 180%;
 	color: #ffffff;
 	max-width: 46.5rem;
+}
+
+section.espaco-presencial .text .btn-primary-2 {
+	background: transparent;
+	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+	border: 0.2rem solid hsl(11deg 76% 66%);
+	border-radius: 0.8rem;
+	padding: 1.6rem 3.2rem;
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: hsl(11deg 76% 66%);
+	margin-top: 4.8rem;
 }
 
 /* Section canais-virtuais */
