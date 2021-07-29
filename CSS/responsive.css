@@ -106,7 +106,7 @@
 	/* ACCORDION */
 
 	.accordion-container {
-		max-width: 100%;
+		max-width: 52%;
 	}
 
 	/* CANAIS VIRTUAIS */
@@ -155,12 +155,6 @@
 		margin: 3rem 0;
 	}
 
-	/* ACCORDION */
-
-	.accordion-container {
-		max-width: 100%;
-	}
-
 	/* PATROCINADOR */
 
 	section.patrocinador .container {
@@ -181,9 +175,19 @@
 }
 
 @media (max-width: 768px) {
+	/* ACCORDION */
+
+	.accordion-container {
+		max-width: 60%;
+	}
 }
 
 @media (max-width: 600px) {
+	/* ACCORDION */
+
+	.accordion-container {
+		max-width: 100%;
+	}
 }
 
 @media (max-width: 480px) {
