@@ -228,7 +228,13 @@
 	}
 
 	section.vem-ai h2 {
-		font-size: 6rem;
+		font-size: 5.2rem;
+	}
+
+	/* ESPACO PRESENCIAL */
+
+	section.espaco-presencial h2 {
+		font-size: 5.2rem;
 	}
 
 	/* CANAIS VIRTUAIS */

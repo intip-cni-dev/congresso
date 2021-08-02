@@ -49,7 +49,7 @@ header .border-gradient {
 	border-width: 0.5rem;
 }
 
-header .btn-header .btn-primary-2 {
+header .btn-primary-2 {
 	background: transparent;
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border: 0.2rem solid hsl(11deg 76% 66%);
@@ -79,7 +79,7 @@ header .lenguage {
 	color: #fff;
 }
 
-/* SECTION HERO */
+/* section s-hero */
 
 section.s-hero {
 	background-image: url(/img/hero-bg.png);
@@ -110,11 +110,7 @@ section.s-hero h1 {
 	margin-bottom: 4.8rem;
 }
 
-section.s-hero .btns {
-	max-width: 100%;
-}
-
-section.s-hero .btns .btn-primary {
+section.s-hero .btn-primary {
 	background: linear-gradient(135deg, #ff5f6d 2.88%, #ffc371 100%);
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border-radius: 0.8rem;
@@ -126,7 +122,7 @@ section.s-hero .btns .btn-primary {
 	color: #fff;
 }
 
-section.s-hero .btns .btn-primary-2 {
+section.s-hero .btn-primary-2 {
 	background: transparent;
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border: 0.2rem solid hsl(11deg 76% 66%);
@@ -178,13 +174,12 @@ section.programacao h2 {
 	color: #0f071c;
 }
 
-section.programacao .bloco-txt h3 {
+section.programacao h3 {
 	font-weight: bold;
 	font-size: 4rem;
 	line-height: 100%;
 	color: #ffffff;
 	margin-bottom: 6.4rem;
-	text-align: center;
 }
 
 section.programacao h6 {
@@ -253,7 +248,7 @@ section.programacao .container ul li .card {
 	display: flex;
 	align-items: center;
 	gap: 1.6rem;
-	width: 34.1rem;
+	max-width: 34.1rem;
 }
 
 section.programacao .container ul li {
@@ -299,7 +294,7 @@ section.programacao .container .linha-4 {
 }
 
 section.programacao .container .linha-5 {
-	max-width: 48%;
+	max-width: 50%;
 }
 
 section.programacao .container .btn-center {
@@ -366,7 +361,7 @@ section.espaco-presencial .gradiente-text {
 section.espaco-presencial .container {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 section.espaco-presencial .text {
@@ -382,15 +377,15 @@ section.espaco-presencial h2 {
 	color: #0f071c;
 }
 
-section.espaco-presencial .text p {
+section.espaco-presencial p {
 	font-size: 1.8rem;
 	line-height: 180%;
 	color: #ffffff;
 	max-width: 46.5rem;
-	margin-bottom: 4.8rem;
+	margin-bottom: 4rem;
 }
 
-section.espaco-presencial .text .btn-primary-2 {
+section.espaco-presencial .btn-primary-2 {
 	background: transparent;
 	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
 	border: 0.2rem solid hsl(11deg 76% 66%);
@@ -566,7 +561,6 @@ section.patrocinador .container .btn-primary {
 	font-size: 1.6rem;
 	line-height: 150%;
 	text-transform: uppercase;
-	text-align: center;
 	color: #fff;
 }
 
