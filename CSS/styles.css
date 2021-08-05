@@ -707,3 +707,14 @@ section.midia .container .number1,
 	flex-direction: column;
 	justify-content: center;
 }
+
+/* FOOTER */
+
+footer {
+	background-color: #000000;
+}
+
+footer .container .tablet,
+.mobile {
+	display: none;
+}

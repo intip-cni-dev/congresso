@@ -186,6 +186,16 @@
 	.accordion-container {
 		max-width: 60%;
 	}
+
+	/* FOOTER */
+
+	footer .container .desk {
+		display: none;
+	}
+
+	footer .container .tablet {
+		display: block;
+	}
 }
 
 @media (max-width: 600px) {
@@ -253,5 +263,15 @@
 
 	section.espaco-presencial .text {
 		margin-left: 0;
+	}
+
+	/* FOOTER */
+
+	footer .container .tablet {
+		display: none;
+	}
+
+	footer .container .mobile {
+		display: block;
 	}
 }
