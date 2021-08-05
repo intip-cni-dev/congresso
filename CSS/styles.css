@@ -239,6 +239,7 @@ section.programacao .container ul li p {
 	font-size: 1.8rem;
 	line-height: 180%;
 	color: #ffffff;
+	text-align: left;
 }
 
 section.programacao .container ul li span {
@@ -345,7 +346,7 @@ section.vem-ai h2 {
 	max-width: 71.3rem;
 	margin-bottom: 3.2rem;
 	color: #0f071c;
-	padding: 0 0.5rem;
+	padding: 1rem 0.5rem;
 }
 
 section.vem-ai p {
@@ -576,7 +577,27 @@ section.patrocinador .container .btn-primary {
 	text-align: center;
 }
 
+section.patrocinador .container .btn-primary-2 {
+	background: transparent;
+	box-shadow: 0px 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+	border: 0.2rem solid hsl(11deg 76% 66%);
+	border-radius: 0.8rem;
+	padding: 1.6rem 3.2rem;
+	font-weight: 600;
+	font-size: 1.6rem;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: hsl(11deg 76% 66%);
+	margin-top: 1.6rem;
+	width: 100%;
+	text-align: center;
+}
+
 /* Section instituicoes */
+
+section.instituicoes {
+	display: none;
+}
 
 section.instituicoes .container {
 	display: flex;
@@ -665,7 +686,7 @@ section.midia .container p {
 	font-size: 1.8rem;
 	line-height: 200%;
 	color: #ffffff;
-	max-width: 33.7rem;
+	max-width: 27rem;
 }
 
 section.midia .container span {
@@ -675,6 +696,7 @@ section.midia .container span {
 	text-align: center !important;
 	text-transform: uppercase;
 	color: #ffffff;
+	max-width: 20rem;
 }
 
 section.midia .container .number1,
