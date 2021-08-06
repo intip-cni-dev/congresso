@@ -19,6 +19,11 @@ html {
 	background-color: #0f071c !important;
 }
 
+html,
+body {
+	scroll-behavior: smooth;
+}
+
 button {
 	cursor: pointer;
 }

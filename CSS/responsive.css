@@ -9,6 +9,10 @@
 		justify-content: center;
 	}
 
+	section.vem-ai .text {
+		margin-left: 0;
+	}
+
 	/* PROGRAMACAO */
 
 	section.programacao .container ul {
@@ -104,6 +108,15 @@
 		flex-direction: column;
 	}
 
+	section.espaco-presencial .text {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section.espaco-presencial h2 {
+		text-align: center;
+	}
+
 	/* ACCORDION */
 
 	.accordion-container {
@@ -170,13 +183,35 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin-top: 20rem;
+		margin-top: 10rem;
 		gap: 6.4rem;
 	}
 
 	section.midia .container .text h2,
 	p {
 		text-align: center;
+	}
+
+	section.midia .container .number1,
+	.number2,
+	.number3,
+	.number4 {
+		margin-top: 2.4rem;
+	}
+
+	/* PATROCINADORES */
+
+	section.pats .container {
+		margin-top: 15rem;
+	}
+
+	section.pats .container .linha1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	section.pats .container p {
+		margin-top: 5rem;
 	}
 }
 
